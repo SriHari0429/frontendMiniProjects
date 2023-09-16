@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    
+}
+body{
+    background-color:lightgray ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 400px;
+    height: 650px;
+    background-color: white;
+}
+.pic-container{
+background-color: grey;
+width: 90%;
+height: 70%;
+margin-top: 10%;
+margin-left: 5%;
+}
+.top{
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: 35px;
+    font-size: 20px;
+}
+.top .profile{
+    padding-right: 10px;
+    font-size: 40px;
+}
+.top h4{
+    padding-top: 10px;
+
+}
+.top p{
+    padding-left: 190px;
+    font-size: 30px;
+}
+.pic-container img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+overflow: hidden;
+}
+.like-icons{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+    word-spacing: 8px;
+}
+.like-icons .save{
+    padding-left: 223px;
+}
+.bottom{
+    padding-left: 20px;
+}
+.bottom h6{
+    font-size: 15px;
+}
+.bottom lable{
+    font-size: 10px;
+    font-weight: 400;
+}
+.bottom .days{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.301);
+    padding-top: 5px;
+}
+.heart{
+    color: #f10808;
+    position: absolute;
+    bottom: 45%;
+    right: 43%;
+    font-size: 60px;
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0;
+    transition: transform ease 0.5s;
+}
